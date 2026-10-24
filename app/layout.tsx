@@ -20,7 +20,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://anvirealestate.com"),
+  metadataBase: new URL("https://anvirealestate.in"),
   title: {
     default: "Anvi Real Estate Lucknow | Verified Plots, Villas & Commercial Land",
     template: "%s | Anvi Real Estate Lucknow",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     "UDYAM-UP-50-0230039",
     "Anvi properties Lucknow",
   ],
-  authors: [{ name: "Sudish Maurya", url: "https://anvirealestate.com" }],
+  authors: [{ name: "Sudish Maurya", url: "https://anvirealestate.in" }],
   creator: "Sudish Maurya (Director, Anvi Real Estate)",
   publisher: "Anvi Real Estate Lucknow",
   formatDetection: {
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     title: "Anvi Real Estate Lucknow | Verified Plots, Villas & Commercial Properties",
     description:
       "Looking for prime residential or commercial plots in Lucknow? Immediate registry, possession & 80% bank loan assistance. Govt MSME Registered: UDYAM-UP-50-0230039.",
-    url: "https://anvirealestate.com",
+    url: "https://anvirealestate.in",
     siteName: "Anvi Real Estate Lucknow",
     images: [
       {
@@ -96,12 +96,12 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "RealEstateAgent",
-      "@id": "https://anvirealestate.com/#realestate",
+      "@id": "https://anvirealestate.in/#realestate",
       "name": "Anvi Real Estate Lucknow",
       "legalName": "ANVI REAL ESTATE LUCKNOW",
-      "url": "https://anvirealestate.com",
-      "logo": "https://anvirealestate.com/images/hero-township.jpg",
-      "image": "https://anvirealestate.com/images/hero-township.jpg",
+      "url": "https://anvirealestate.in",
+      "logo": "https://anvirealestate.in/images/hero-township.jpg",
+      "image": "https://anvirealestate.in/images/hero-township.jpg",
       "description":
         "Anvi Real Estate is a premier Govt. MSME registered real estate consultancy in Lucknow, providing verified residential plots, luxury villas, and commercial property with immediate registry and possession.",
       "telephone": ["+918004100085", "+916394103686"],
@@ -156,11 +156,11 @@ const jsonLd = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://anvirealestate.com/#website",
-      "url": "https://anvirealestate.com",
+      "@id": "https://anvirealestate.in/#website",
+      "url": "https://anvirealestate.in",
       "name": "Anvi Real Estate Lucknow",
       "publisher": {
-        "@id": "https://anvirealestate.com/#realestate",
+        "@id": "https://anvirealestate.in/#realestate",
       },
     },
   ],
